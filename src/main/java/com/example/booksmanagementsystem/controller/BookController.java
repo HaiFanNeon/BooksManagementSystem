@@ -4,6 +4,7 @@ package com.example.booksmanagementsystem.controller;
 import com.example.booksmanagementsystem.dao.BookDao;
 import com.example.booksmanagementsystem.model.Book;
 import com.example.booksmanagementsystem.service.BookService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -15,7 +16,16 @@ import java.util.Random;
 @RequestMapping("/book")
 @RestController
 public class BookController {
-    private BookService bookService = new BookService();
+
+    @Autowired
+    private BookService bookService;
+    // 等价
+//    private final BookService bookService;
+//
+//    public BookController(BookService bookService) {
+//        this.bookService = bookService;
+//    }
+
     @RequestMapping("/getBookList")
     public List<Book> getBookList() {
         List<Book> bookList = bookService.getBookList();
