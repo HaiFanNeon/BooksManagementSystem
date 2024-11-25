@@ -1,0 +1,20 @@
+# 配置项目启动时的端口号
+server:
+  port: 8080
+logging:
+  level:
+    root: debug
+
+kaptcha:
+  image:
+    width: 200
+    height: 50
+  text-producer:
+    font:
+      size: 40
+  items:
+    admin:
+      path: /admin/captcha
+      session:
+        key: HOME_KAPTCHA_SESSION_KEY
+        date: HOME_KAPTCHA_SESSION_DATE

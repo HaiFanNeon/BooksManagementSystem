@@ -2,6 +2,7 @@ package com.example.booksmanagementsystem.dao;
 
 import com.example.booksmanagementsystem.model.Book;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
@@ -9,6 +10,7 @@ import java.util.List;
 import java.util.Random;
 
 @Component
+@Repository
 public class BookDao {
     public List<Book> mockData() {
         List<Book> bookInfos = new ArrayList<>();

@@ -1,51 +1,31 @@
 package com.example.booksmanagementsystem.test;
 
+import java.util.ArrayList;
+
 public class Main {
 
+
+
     public static void main(String[] args) {
-        Tire tire = new Tire(20);
-        Bottom bottom = new Bottom(tire);
-        Framework framework = new Framework(bottom);
-        Car car = new Car(framework);
-        car.run();
+        System.out.println(maxSubArray(new int[]{-2,1,-3,4,-1,2,1,-5,4}));
+
     }
 
-    static class Car {
-        private Framework framework;
 
-        public Car (Framework framework) {
-            this.framework = framework;
-            System.out.println("Car init---");
+    public static int maxSubArray(int[] nums) {
+        int ans = 0;
+        int sum = -0x3f3f3f3f;
+
+        ArrayList<Integer> alist = new ArrayList<>(nums.length * );
+        for (int i = 1; i <= nums.length; i++) {
+
+            alist.set(i, nums[i - 1]);
+            alist.set(i, Math.max(alist.get(i), alist.get(i - 1) + nums[i - 1]));
+            ans = Math.max(ans, alist.get(i));
         }
 
-        public void run() {
-            System.out.println("Car run---");
-        }
-    }
+        return ans;
 
-    static class Framework {
-        private Bottom bottom;
-
-        public Framework(Bottom bottom) {
-            this.bottom = bottom;
-            System.out.println("Framework init---");
-        }
-    }
-
-    static class Bottom {
-        private Tire tire;
-        public Bottom(Tire tire) {
-            this.tire = tire;
-            System.out.println("Bottom init---");
-        }
-    }
-
-    static class Tire {
-        private int size;
-        public Tire (int size) {
-            this.size = size;
-            System.out.println("轮胎尺寸 " + size);
-        }
     }
 }
 

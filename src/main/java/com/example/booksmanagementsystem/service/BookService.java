@@ -8,15 +8,23 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Component
+@Service
 public class BookService {
-    @Autowired
-    private BookDao bookDao;
+    private final BookDao bookDao;
+
+    public BookService(BookDao bookDao) {
+        this.bookDao = bookDao;
+    }
+
     public List<Book> getBookList() {
         List<Book> bookInfos = bookDao.mockData();
         for (Book book : bookInfos) {
             book.setStatusCN(book.getStatus() == 1 ? "可借阅" : "不可借阅");
         }
         return bookInfos;
+    }
+
+    public void doService() {
+        System.out.println("doService");
     }
 }
