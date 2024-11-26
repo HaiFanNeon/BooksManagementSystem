@@ -1,24 +1,25 @@
 package com.example.booksmanagementsystem.controller;
 
 
+import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.PostConstruct;
 
+
+@Slf4j
 @RestController
 public class LoggerController {
 
-    private static Logger logger = LoggerFactory.getLogger(LoggerController.class);
 
 
     @PostConstruct
     public void print() {
-        logger.info("打印日志");
-        logger.error("打印日志");
-        logger.warn("打印日志");
-        logger.debug("打印日志");
-        logger.trace("打印日志");
+        log.info("打印日志");
+        log.error("打印日志");
+        log.warn("打印日志");
+        log.debug("打印日志");
     }
 }

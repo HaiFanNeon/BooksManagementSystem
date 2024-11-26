@@ -16,7 +16,7 @@ public class Main {
         int ans = 0;
         int sum = -0x3f3f3f3f;
 
-        ArrayList<Integer> alist = new ArrayList<>(nums.length * );
+        ArrayList<Integer> alist = new ArrayList<>(nums.length  );
         for (int i = 1; i <= nums.length; i++) {
 
             alist.set(i, nums[i - 1]);
