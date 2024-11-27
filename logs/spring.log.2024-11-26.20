@@ -1,0 +1,32 @@
+2024-11-26 19:39:01.072 DEBUG 19392 --- [main] .s.b.w.e.t.TomcatServletWebServerFactory : Code archive: D:\apache-maven-3.6.1\repository\org\springframework\boot\spring-boot\2.6.13\spring-boot-2.6.13.jar
+2024-11-26 19:39:01.076 DEBUG 19392 --- [main] .s.b.w.e.t.TomcatServletWebServerFactory : None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2024-11-26 19:39:01.087 DEBUG 19392 --- [main] org.apache.catalina.core.ContainerBase   : Add child TomcatEmbeddedContext[] StandardEngine[Tomcat].StandardHost[localhost]
+2024-11-26 19:39:01.090  INFO 19392 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-11-26 19:39:01.095 DEBUG 19392 --- [main] o.apache.tomcat.util.IntrospectionUtils  : IntrospectionUtils: setProperty(class org.apache.coyote.http11.Http11NioProtocol parseBodyMethods=POST)
+2024-11-26 19:39:01.095 DEBUG 19392 --- [main] o.apache.tomcat.util.IntrospectionUtils  : IntrospectionUtils: setProperty(class org.apache.tomcat.util.net.NioEndpoint parseBodyMethods=POST)
+2024-11-26 19:39:01.096  INFO 19392 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-26 19:39:01.096  INFO 19392 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-11-26 19:39:01.097 DEBUG 19392 --- [main] o.apache.catalina.core.StandardContext   : Starting ROOT
+2024-11-26 19:39:01.107 DEBUG 19392 --- [main] o.apache.catalina.core.StandardContext   : Configuring default Resources
+2024-11-26 19:39:01.139 DEBUG 19392 --- [main] o.apache.catalina.core.StandardContext   : Processing standard container startup
+2024-11-26 19:39:01.139 DEBUG 19392 --- [main] org.apache.catalina.loader.WebappLoader  : Starting this Loader
+2024-11-26 19:39:01.205 DEBUG 19392 --- [main] o.a.c.authenticator.AuthenticatorBase    : No SingleSignOn Valve is present
+2024-11-26 19:39:01.205 DEBUG 19392 --- [main] o.apache.catalina.core.StandardContext   : No manager found. Checking if cluster manager should be used. Cluster configured: [false], Application distributable: [false]
+2024-11-26 19:39:01.207 DEBUG 19392 --- [main] o.apache.catalina.core.StandardContext   : Configured a manager of class [org.apache.catalina.session.StandardManager]
+2024-11-26 19:39:01.214  INFO 19392 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-26 19:39:01.214 DEBUG 19392 --- [main] w.s.c.ServletWebServerApplicationContext : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2024-11-26 19:39:01.214  INFO 19392 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 713 ms
+2024-11-26 19:39:01.215 DEBUG 19392 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'kaptchaProps'
+2024-11-26 19:39:01.215 DEBUG 19392 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'com.oopsguy.kaptcha.autoconfigure.KaptchaAutoConfigure'
+2024-11-26 19:39:01.216 DEBUG 19392 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'kaptcha-com.oopsguy.kaptcha.autoconfigure.KaptchaProperties'
+2024-11-26 19:39:01.224 DEBUG 19392 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'kaptchaProps' via factory method to bean named 'kaptcha-com.oopsguy.kaptcha.autoconfigure.KaptchaProperties'
+2024-11-26 19:39:01.230 DEBUG 19392 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'webConfig'
+2024-11-26 19:39:01.236 DEBUG 19392 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'requestContextFilter'
+2024-11-26 19:39:01.237 DEBUG 19392 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'formContentFilter'
+2024-11-26 19:39:01.237 DEBUG 19392 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration'
+2024-11-26 19:39:01.239 DEBUG 19392 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'characterEncodingFilter'
+2024-11-26 19:39:01.247 DEBUG 19392 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2024-11-26 19:39:01.247 DEBUG 19392 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2024-11-26 19:39:01.249 DEBUG 19392 --- [main] org.apache.catalina.core.ContainerBase   : Add child StandardWrapper[dispatcherServlet] StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]
+2024-11-26 19:39:01.250 DEBUG 19392 --- [main] org.apache.catalina.core.ContainerBase   : Add child StandardWrapper[adminKapthcaServlet] StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]
+2024-11-26 19:39:01.264 DEBUG 19392 --- [main] o.apache.catalina.core.StandardContext   : Configuring application event listeners

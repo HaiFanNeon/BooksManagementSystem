@@ -1,0 +1,32 @@
+2024-11-26 19:39:01.265 DEBUG 19392 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Sending application start events
+2024-11-26 19:39:01.267 DEBUG 19392 --- [main] o.a.catalina.session.StandardManager     : Start: Loading persisted sessions
+2024-11-26 19:39:01.268 DEBUG 19392 --- [main] o.a.catalina.session.StandardManager     : Loading persisted sessions from [SESSIONS.ser]
+2024-11-26 19:39:01.269 DEBUG 19392 --- [main] o.a.catalina.session.StandardManager     : No persisted data file found
+2024-11-26 19:39:01.269 DEBUG 19392 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Starting filters
+2024-11-26 19:39:01.269 DEBUG 19392 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       :  Starting filter 'requestContextFilter'
+2024-11-26 19:39:01.280 DEBUG 19392 --- [main] o.s.b.w.s.f.OrderedRequestContextFilter  : Filter 'requestContextFilter' configured for use
+2024-11-26 19:39:01.280 DEBUG 19392 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       :  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+2024-11-26 19:39:01.281 DEBUG 19392 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       :  Starting filter 'characterEncodingFilter'
+2024-11-26 19:39:01.281 DEBUG 19392 --- [main] s.b.w.s.f.OrderedCharacterEncodingFilter : Filter 'characterEncodingFilter' configured for use
+2024-11-26 19:39:01.281 DEBUG 19392 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       :  Starting filter 'formContentFilter'
+2024-11-26 19:39:01.281 DEBUG 19392 --- [main] o.s.b.w.s.f.OrderedFormContentFilter     : Filter 'formContentFilter' configured for use
+2024-11-26 19:39:01.281 DEBUG 19392 --- [main] o.apache.catalina.core.StandardContext   : Starting completed
+2024-11-26 19:39:01.284 DEBUG 19392 --- [main] org.apache.catalina.mapper.Mapper        : Registered host [localhost]
+2024-11-26 19:39:01.284 DEBUG 19392 --- [main] o.apache.catalina.mapper.MapperListener  : Register Wrapper [adminKapthcaServlet] in Context [] for service [StandardService[Tomcat]]
+2024-11-26 19:39:01.285 DEBUG 19392 --- [main] o.apache.catalina.mapper.MapperListener  : Register Wrapper [dispatcherServlet] in Context [] for service [StandardService[Tomcat]]
+2024-11-26 19:39:01.285 DEBUG 19392 --- [main] o.apache.catalina.mapper.MapperListener  : Register Context [] for service [StandardService[Tomcat]]
+2024-11-26 19:39:01.285 DEBUG 19392 --- [main] o.apache.catalina.mapper.MapperListener  : Register host [localhost] at domain [null] for service [StandardService[Tomcat]]
+2024-11-26 19:39:01.286 DEBUG 19392 --- [RMI TCP Connection(1)-10.41.25.117] sun.rmi.transport.tcp                    : RMI TCP Connection(1)-10.41.25.117: (port 53062) op = 82
+2024-11-26 19:39:01.287 DEBUG 19392 --- [RMI TCP Connection(1)-10.41.25.117] sun.rmi.transport.tcp                    : RMI TCP Connection(1)-10.41.25.117: (port 53062) op = 80
+2024-11-26 19:39:01.287 DEBUG 19392 --- [RMI TCP Connection(1)-10.41.25.117] sun.rmi.transport.tcp                    : RMI TCP Connection(1)-10.41.25.117: (port 53062) op = 80
+2024-11-26 19:39:01.288 DEBUG 19392 --- [RMI TCP Connection(1)-10.41.25.117] sun.rmi.loader                           : RMI TCP Connection(1)-10.41.25.117: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = sun.misc.Launcher$ExtClassLoader@16b4a017
+2024-11-26 19:39:01.288 DEBUG 19392 --- [RMI TCP Connection(1)-10.41.25.117] sun.rmi.loader                           : RMI TCP Connection(1)-10.41.25.117: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = sun.misc.Launcher$ExtClassLoader@16b4a017
+2024-11-26 19:39:01.288 DEBUG 19392 --- [RMI TCP Connection(1)-10.41.25.117] sun.rmi.loader                           : RMI TCP Connection(1)-10.41.25.117: name = "java.rmi.server.UID", codebase = "", defaultLoader = sun.misc.Launcher$ExtClassLoader@16b4a017
+2024-11-26 19:39:01.288 DEBUG 19392 --- [RMI TCP Connection(1)-10.41.25.117] sun.rmi.loader                           : RMI TCP Connection(1)-10.41.25.117: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = sun.misc.Launcher$ExtClassLoader@16b4a017
+2024-11-26 19:39:01.288 DEBUG 19392 --- [RMI TCP Connection(1)-10.41.25.117] sun.rmi.loader                           : RMI TCP Connection(1)-10.41.25.117: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = sun.misc.Launcher$ExtClassLoader@16b4a017
+2024-11-26 19:39:01.288 DEBUG 19392 --- [RMI TCP Connection(1)-10.41.25.117] sun.rmi.loader                           : RMI TCP Connection(1)-10.41.25.117: name = "[B", codebase = "", defaultLoader = sun.misc.Launcher$ExtClassLoader@16b4a017
+2024-11-26 19:39:01.289 DEBUG 19392 --- [RMI TCP Connection(1)-10.41.25.117] sun.rmi.transport.tcp                    : RMI TCP Connection(1)-10.41.25.117: (port 53062) op = 84
+2024-11-26 19:39:01.289 DEBUG 19392 --- [RMI TCP Connection(1)-10.41.25.117] sun.rmi.transport.tcp                    : RMI TCP Connection(1)-10.41.25.117: (port 53062) op = 80
+2024-11-26 19:39:01.289 DEBUG 19392 --- [RMI TCP Connection(1)-10.41.25.117] sun.rmi.transport.tcp                    : RMI TCP Connection(1)-10.41.25.117: (port 53062) op = 80
+2024-11-26 19:39:01.289 DEBUG 19392 --- [RMI TCP Connection(1)-10.41.25.117] sun.rmi.loader                           : RMI TCP Connection(1)-10.41.25.117: name = "javax.management.ObjectName", codebase = ""
+2024-11-26 19:39:01.290 DEBUG 19392 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'booksManagementSystemApplication'

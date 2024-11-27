@@ -1,0 +1,32 @@
+2024-11-26 19:29:27.438 DEBUG 9576 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Sending application start events
+2024-11-26 19:29:27.442 DEBUG 9576 --- [main] o.a.catalina.session.StandardManager     : Start: Loading persisted sessions
+2024-11-26 19:29:27.442 DEBUG 9576 --- [main] o.a.catalina.session.StandardManager     : Loading persisted sessions from [SESSIONS.ser]
+2024-11-26 19:29:27.442 DEBUG 9576 --- [main] o.a.catalina.session.StandardManager     : No persisted data file found
+2024-11-26 19:29:27.442 DEBUG 9576 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Starting filters
+2024-11-26 19:29:27.443 DEBUG 9576 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       :  Starting filter 'requestContextFilter'
+2024-11-26 19:29:27.446 DEBUG 9576 --- [main] o.s.b.w.s.f.OrderedRequestContextFilter  : Filter 'requestContextFilter' configured for use
+2024-11-26 19:29:27.447 DEBUG 9576 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       :  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+2024-11-26 19:29:27.447 DEBUG 9576 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       :  Starting filter 'characterEncodingFilter'
+2024-11-26 19:29:27.448 DEBUG 9576 --- [main] s.b.w.s.f.OrderedCharacterEncodingFilter : Filter 'characterEncodingFilter' configured for use
+2024-11-26 19:29:27.448 DEBUG 9576 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       :  Starting filter 'formContentFilter'
+2024-11-26 19:29:27.448 DEBUG 9576 --- [main] o.s.b.w.s.f.OrderedFormContentFilter     : Filter 'formContentFilter' configured for use
+2024-11-26 19:29:27.448 DEBUG 9576 --- [main] o.apache.catalina.core.StandardContext   : Starting completed
+2024-11-26 19:29:27.451 DEBUG 9576 --- [main] org.apache.catalina.mapper.Mapper        : Registered host [localhost]
+2024-11-26 19:29:27.451 DEBUG 9576 --- [main] o.apache.catalina.mapper.MapperListener  : Register Wrapper [adminKapthcaServlet] in Context [] for service [StandardService[Tomcat]]
+2024-11-26 19:29:27.452 DEBUG 9576 --- [main] o.apache.catalina.mapper.MapperListener  : Register Wrapper [dispatcherServlet] in Context [] for service [StandardService[Tomcat]]
+2024-11-26 19:29:27.452 DEBUG 9576 --- [main] o.apache.catalina.mapper.MapperListener  : Register Context [] for service [StandardService[Tomcat]]
+2024-11-26 19:29:27.452 DEBUG 9576 --- [main] o.apache.catalina.mapper.MapperListener  : Register host [localhost] at domain [null] for service [StandardService[Tomcat]]
+2024-11-26 19:29:27.457 DEBUG 9576 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'booksManagementSystemApplication'
+2024-11-26 19:29:27.459 DEBUG 9576 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'bookController'
+2024-11-26 19:29:27.462 DEBUG 9576 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'bookService'
+2024-11-26 19:29:27.464 DEBUG 9576 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'bookDao'
+2024-11-26 19:29:27.465 DEBUG 9576 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'bookService' via constructor to bean named 'bookDao'
+2024-11-26 19:29:27.465 DEBUG 9576 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'bookController' via constructor to bean named 'bookService'
+2024-11-26 19:29:27.465 DEBUG 9576 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'kaptchaController'
+2024-11-26 19:29:27.465 DEBUG 9576 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'loggerController'
+2024-11-26 19:29:27.466  INFO 9576 --- [main] c.e.b.controller.LoggerController        : 打印日志
+2024-11-26 19:29:27.466 ERROR 9576 --- [main] c.e.b.controller.LoggerController        : 打印日志
+2024-11-26 19:29:27.466  WARN 9576 --- [main] c.e.b.controller.LoggerController        : 打印日志
+2024-11-26 19:29:27.466 DEBUG 9576 --- [main] c.e.b.controller.LoggerController        : 打印日志
+2024-11-26 19:29:27.466 DEBUG 9576 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'userController'
+2024-11-26 19:29:27.467 DEBUG 9576 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'

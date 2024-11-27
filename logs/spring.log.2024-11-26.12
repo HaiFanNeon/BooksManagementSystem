@@ -1,0 +1,6 @@
+2024-11-26 19:29:56.948 DEBUG 9576 --- [RMI TCP Connection(4)-10.41.25.117] sun.rmi.transport.tcp                    : RMI TCP Connection(4)-10.41.25.117: (port 52485) connection closed
+2024-11-26 19:29:56.950 DEBUG 9576 --- [RMI TCP Connection(4)-10.41.25.117] sun.rmi.transport.tcp                    : RMI TCP Connection(4)-10.41.25.117: close connection
+2024-11-26 19:30:27.508 DEBUG 9576 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1732620627507 sessioncount 0
+2024-11-26 19:30:27.508 DEBUG 9576 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-11-26 19:31:27.566 DEBUG 9576 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1732620687566 sessioncount 0
+2024-11-26 19:31:27.567 DEBUG 9576 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 1 expired sessions: 0

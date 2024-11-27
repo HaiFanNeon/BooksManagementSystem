@@ -1,0 +1,6 @@
+2024-11-26 19:35:27.771 DEBUG 9576 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1732620927771 sessioncount 0
+2024-11-26 19:35:27.773 DEBUG 9576 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 2 expired sessions: 0
+2024-11-26 19:36:27.823 DEBUG 9576 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1732620987823 sessioncount 0
+2024-11-26 19:36:27.824 DEBUG 9576 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-11-26 19:37:27.871 DEBUG 9576 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1732621047871 sessioncount 0
+2024-11-26 19:37:27.879 DEBUG 9576 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 8 expired sessions: 0

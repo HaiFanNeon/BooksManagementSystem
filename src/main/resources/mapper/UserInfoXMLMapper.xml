@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.booksmanagementsystem.mapper.UserInfoMapper">
+    <insert id="insert" useGeneratedKeys="true" keyProperty="id">
+        insert into userinfo(username,password,age,gender,phone) values(#{username},#{password}, #{age},#{gender},#{phone})
+    </insert>
+    <update id="update">
+        update userinfo set username = #{username}, password = #{password}, age = #{age}, gender = #{gender}, phone = #{phone} where id = #{id}
+    </update>
+    <delete id="delete">
+        delete from userinfo where id=#{id}
+    </delete>
+
+    <select id="selectAll" resultType="com.example.booksmanagementsystem.model.UserInfo">
+        select * from userinfo
+    </select>
+</mapper>
