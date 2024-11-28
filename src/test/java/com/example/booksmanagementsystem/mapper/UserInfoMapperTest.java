@@ -5,6 +5,8 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import java.util.List;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 
@@ -13,9 +15,17 @@ class UserInfoMapperTest {
     @Autowired
     private UserInfoMapper userInfoMapper;
 
+
+
+
+    @Test
+    void queryByName() {
+        List<UserInfo> userInfos = userInfoMapper.queryByName("' or 2='2");
+        System.out.println(userInfos);
+    }
     @Test
     public void testSelect() {
-        userInfoMapper.selectAll();
+        userInfoMapper.queryAllUserByLike("z");
     }
 
     @Test
@@ -27,11 +37,10 @@ class UserInfoMapperTest {
     @Test
     public void testInsert() {
         UserInfo userInfo = new UserInfo();
-        userInfo.setUsername("example_username");
-        userInfo.setPassword("example_password");
+        userInfo.setUsername("set");
+        userInfo.setPassword("set");
         userInfo.setAge(25);
-        userInfo.setGender(1);
-        userInfo.setPhone("12345678901");
+
         Integer insert = userInfoMapper.insert(userInfo);
         System.out.println("新增数据：" + insert + "，数据id：" + userInfo.getId());
     }

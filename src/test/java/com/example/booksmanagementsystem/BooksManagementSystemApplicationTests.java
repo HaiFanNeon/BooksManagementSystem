@@ -16,10 +16,9 @@ class BooksManagementSystemApplicationTests {
 
     @Test
     void testUserInfoMapper() {
-        List<UserInfo> userInfos = userInfoMapper.selectAll();
+        List<UserInfo> userInfos = userInfoMapper.selectAll("desc");
         userInfos.forEach(System.out::println);
     }
-
     @Test
     void contextLoads() {
     }
