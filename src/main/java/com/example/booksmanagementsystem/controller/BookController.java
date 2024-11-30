@@ -30,6 +30,7 @@ public class BookController {
 
     @RequestMapping("/getBookList")
     public List<Book> getBookList() {
+
         List<Book> bookList = bookService.getBookList();
         return bookList;
     }
