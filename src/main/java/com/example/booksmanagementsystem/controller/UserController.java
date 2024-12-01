@@ -1,6 +1,8 @@
 package com.example.booksmanagementsystem.controller;
 
 
+import com.example.booksmanagementsystem.service.UserService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -10,6 +12,10 @@ import javax.servlet.http.HttpSession;
 @RequestMapping("/user")
 @RestController
 public class UserController {
+
+
+    @Autowired
+    private UserService userService;
 
     /**
      * @param userName
@@ -22,9 +28,12 @@ public class UserController {
             return false;
         }
         // 验证账号和密码
-        if ("admin".equals(userName) && "admin".equals(password)) {
+        boolean login = userService.login(userName, password);
+        if (login) {
+            session.setAttribute("userName", userName);
             return true;
         }
+
 
         return false;
     }
