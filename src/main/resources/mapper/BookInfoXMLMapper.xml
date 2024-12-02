@@ -4,5 +4,26 @@
 <mapper namespace="com.example.booksmanagementsystem.mapper.BookInfoMapper">
 
 
+    <insert id="addBook">
+        insert into book_info
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="bookName != null">book_name,</if>
+            <if test="author != null">author,</if>
+            <if test="count != null">count,</if>
+            <if test="price != null">price,</if>
+            <if test="publish != null">publish,</if>
+            <if test="status != null">status,</if>
+        </trim>
+        value
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="bookName != null">#{bookName},</if>
+            <if test="author != null">#{author},</if>
+            <if test="count != null">#{count},</if>
+            <if test="price != null">#{price},</if>
+            <if test="publish != null">#{publish},</if>
+            <if test="status != null">#{status}, </if>
+        </trim>
 
+
+    </insert>
 </mapper>

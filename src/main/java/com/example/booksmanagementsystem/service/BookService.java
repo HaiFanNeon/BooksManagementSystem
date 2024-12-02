@@ -1,6 +1,7 @@
 package com.example.booksmanagementsystem.service;
 
 import com.example.booksmanagementsystem.dao.BookDao;
+import com.example.booksmanagementsystem.enums.BookStatusEnum;
 import com.example.booksmanagementsystem.mapper.BookInfoMapper;
 import com.example.booksmanagementsystem.model.Book;
 import com.example.booksmanagementsystem.model.PageRequest;
@@ -26,6 +27,18 @@ public class BookService {
     }
 
     public List<Book> getListByPage(PageRequest pageRequest) {
-        return bookInfoMapper.getListByPage(pageRequest.getOffset(), pageRequest.getPageSize());
+        List<Book> listByPage = bookInfoMapper.getListByPage(pageRequest.getOffset(), pageRequest.getPageSize());
+
+        if (listByPage != null && listByPage.size() > 0) {
+            for (Book book : listByPage) {
+                book.setStatusCN(BookStatusEnum.getNameByCode(book.getStatus()).getName());
+            }
+        }
+
+        return listByPage;
+    }
+
+    public Integer addBook(Book book) {
+        return bookInfoMapper.addBook(book);
     }
 }

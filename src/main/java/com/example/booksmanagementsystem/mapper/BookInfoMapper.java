@@ -5,6 +5,7 @@ import com.example.booksmanagementsystem.model.Book;
 import com.example.booksmanagementsystem.model.PageRequest;
 import com.example.booksmanagementsystem.model.PageResult;
 import com.example.booksmanagementsystem.model.UserInfo;
+import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
@@ -18,8 +19,12 @@ public interface BookInfoMapper {
 
 
     @Select("select count(1) from book_info where status != 0")
-    Integer count();
+    public Integer count();
 
     @Select("select * from book_info limit #{offset},#{pageSize}")
-    List<Book> getListByPage(@Param("offset") Integer offset,@Param("pageSize") Integer pageSize);
+    public List<Book> getListByPage(@Param("offset") Integer offset,@Param("pageSize") Integer pageSize);
+
+    public Integer addBook(Book book);
+
+    public
 }

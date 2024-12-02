@@ -29,14 +29,21 @@ public class BookController {
     }
     @RequestMapping("/getBookList")
     public List<Book> getBookList() {
-        List<Book> bookList = bookService.getBookList();
-        return bookList;
+        return bookService.getBookList();
     }
 
     @RequestMapping("/getListByPage")
     public PageResult<Book> getListByPage(PageRequest pageRequest) {
         Integer count = bookService.count();
         List<Book> listByPage = bookService.getListByPage(pageRequest);
+
+
         return new PageResult<>(count, listByPage, pageRequest);
+    }
+
+    @RequestMapping("/addBook")
+    public Boolean addBook(Book book) {
+        log.info(book.toString());
+        return bookService.addBook(book) == 1;
     }
 }
