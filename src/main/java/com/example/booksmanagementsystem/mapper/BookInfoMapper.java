@@ -26,5 +26,4 @@ public interface BookInfoMapper {
 
     public Integer addBook(Book book);
 
-    public
 }
