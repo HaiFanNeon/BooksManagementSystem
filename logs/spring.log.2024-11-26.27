@@ -1,8 +1,0 @@
-2024-11-26 19:39:06.509 DEBUG 19392 --- [RMI TCP Connection(4)-10.41.25.117] sun.rmi.loader                           : RMI TCP Connection(4)-10.41.25.117: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = sun.misc.Launcher$ExtClassLoader@16b4a017
-2024-11-26 19:39:06.510 DEBUG 19392 --- [RMI TCP Connection(4)-10.41.25.117] sun.rmi.loader                           : RMI TCP Connection(4)-10.41.25.117: name = "[B", codebase = "", defaultLoader = sun.misc.Launcher$ExtClassLoader@16b4a017
-2024-11-26 19:39:15.782 DEBUG 19392 --- [SpringApplicationShutdownHook] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
-2024-11-26 19:39:15.782 DEBUG 19392 --- [SpringApplicationShutdownHook] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2053d869, started on Tue Nov 26 19:39:00 CST 2024
-2024-11-26 19:39:15.782 DEBUG 19392 --- [SpringApplicationShutdownHook] ySourcesPropertyResolver$DefaultResolver : Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
-2024-11-26 19:39:15.784 DEBUG 19392 --- [SpringApplicationShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
-2024-11-26 19:39:15.785 DEBUG 19392 --- [SpringApplicationShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Bean 'webServerGracefulShutdown' completed its stop procedure
-2024-11-26 19:39:15.785 DEBUG 19392 --- [SpringApplicationShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483646
