@@ -1,0 +1,339 @@
+2024-12-05 19:17:12.504  INFO 61196 --- [main] com.bite.book.DemoApplication            : Starting DemoApplication using Java 17.0.11 on DESKTOP-5A1B7J0 with PID 61196 (D:\java_code\BooksManagementSystem\BooksManagementSystem\spring-book\target\classes started by Lenovo in D:\java_code\BooksManagementSystem\BooksManagementSystem\spring-book)
+2024-12-05 19:17:12.509  INFO 61196 --- [main] com.bite.book.DemoApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-12-05 19:17:13.579  INFO 61196 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-12-05 19:17:13.589  INFO 61196 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-05 19:17:13.590  INFO 61196 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2024-12-05 19:17:13.677  INFO 61196 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-05 19:17:13.677  INFO 61196 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1124 ms
+2024-12-05 19:17:14.334  INFO 61196 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-12-05 19:17:14.345  INFO 61196 --- [main] com.bite.book.DemoApplication            : Started DemoApplication in 2.205 seconds (JVM running for 2.882)
+2024-12-05 19:17:38.541  INFO 61196 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-05 19:17:38.541  INFO 61196 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-05 19:17:38.542  INFO 61196 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-05 19:17:38.557  INFO 61196 --- [http-nio-8080-exec-1] c.b.book.interceptor.LoginInterceptor    : 登录拦截器校验...
+2024-12-05 19:17:46.710  INFO 61196 --- [http-nio-8080-exec-4] c.b.book.interceptor.LoginInterceptor    : 登录拦截器校验...
+2024-12-05 19:17:59.119  INFO 61196 --- [http-nio-8080-exec-7] c.b.book.interceptor.LoginInterceptor    : 登录拦截器校验...
+2024-12-05 19:18:06.919  INFO 61196 --- [http-nio-8080-exec-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-05 19:18:07.180  INFO 61196 --- [http-nio-8080-exec-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-05 19:18:07.268  INFO 61196 --- [http-nio-8080-exec-10] com.bite.book.aspect.TimeAspect          : login方法执行时间：373ms
+2024-12-05 19:18:07.412  INFO 61196 --- [http-nio-8080-exec-3] c.b.book.interceptor.LoginInterceptor    : 登录拦截器校验...
+2024-12-05 19:18:07.422  INFO 61196 --- [http-nio-8080-exec-3] c.b.book.interceptor.LoginInterceptor    : 登录拦截器校验...
+2024-12-05 19:18:07.448  INFO 61196 --- [http-nio-8080-exec-2] c.b.book.interceptor.LoginInterceptor    : 登录拦截器校验...
+2024-12-05 19:18:07.451  INFO 61196 --- [http-nio-8080-exec-2] c.b.book.interceptor.LoginInterceptor    : 登录拦截器校验...
+2024-12-05 19:18:20.107  INFO 61196 --- [http-nio-8080-exec-7] c.b.book.interceptor.LoginInterceptor    : 登录拦截器校验...
+2024-12-05 19:18:20.113  INFO 61196 --- [http-nio-8080-exec-7] c.b.book.interceptor.LoginInterceptor    : 登录拦截器校验...
+2024-12-05 19:18:21.374  INFO 61196 --- [http-nio-8080-exec-8] c.b.book.interceptor.LoginInterceptor    : 登录拦截器校验...
+2024-12-05 19:18:21.375  INFO 61196 --- [http-nio-8080-exec-8] c.b.book.interceptor.LoginInterceptor    : 登录拦截器校验...
+2024-12-05 19:18:21.829  INFO 61196 --- [http-nio-8080-exec-2] c.b.book.interceptor.LoginInterceptor    : 登录拦截器校验...
+2024-12-05 19:18:21.831  INFO 61196 --- [http-nio-8080-exec-2] c.b.book.interceptor.LoginInterceptor    : 登录拦截器校验...
+2024-12-05 19:18:22.179  INFO 61196 --- [http-nio-8080-exec-4] c.b.book.interceptor.LoginInterceptor    : 登录拦截器校验...
+2024-12-05 19:18:22.179  INFO 61196 --- [http-nio-8080-exec-4] c.b.book.interceptor.LoginInterceptor    : 登录拦截器校验...
+2024-12-05 19:18:31.255  INFO 61196 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-05 19:18:31.267  INFO 61196 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-05 19:18:34.915  INFO 48020 --- [main] com.bite.book.DemoApplication            : Starting DemoApplication using Java 17.0.11 on DESKTOP-5A1B7J0 with PID 48020 (D:\java_code\BooksManagementSystem\BooksManagementSystem\spring-book\target\classes started by Lenovo in D:\java_code\BooksManagementSystem\BooksManagementSystem\spring-book)
+2024-12-05 19:18:34.918  INFO 48020 --- [main] com.bite.book.DemoApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-12-05 19:18:35.905  INFO 48020 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-12-05 19:18:35.914  INFO 48020 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-05 19:18:35.915  INFO 48020 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2024-12-05 19:18:36.011  INFO 48020 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-05 19:18:36.011  INFO 48020 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1048 ms
+2024-12-05 19:18:36.720  INFO 48020 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-12-05 19:18:36.730  INFO 48020 --- [main] com.bite.book.DemoApplication            : Started DemoApplication in 2.194 seconds (JVM running for 2.804)
+2024-12-05 19:18:44.178  INFO 48020 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-05 19:18:44.178  INFO 48020 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-05 19:18:44.179  INFO 48020 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-05 19:18:44.211  INFO 48020 --- [http-nio-8080-exec-2] c.b.book.interceptor.LoginInterceptor    : 登录拦截器校验...
+2024-12-05 19:18:50.253  INFO 48020 --- [http-nio-8080-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-05 19:18:50.394  INFO 48020 --- [http-nio-8080-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-05 19:18:50.436  INFO 48020 --- [http-nio-8080-exec-5] com.bite.book.aspect.TimeAspect          : login方法执行时间：199ms
+2024-12-05 19:18:50.495  INFO 48020 --- [http-nio-8080-exec-6] c.b.book.interceptor.LoginInterceptor    : 登录拦截器校验...
+2024-12-05 19:18:50.502  INFO 48020 --- [http-nio-8080-exec-6] c.b.book.interceptor.LoginInterceptor    : 登录拦截器校验...
+2024-12-05 19:22:45.973  INFO 48020 --- [http-nio-8080-exec-10] c.b.book.interceptor.LoginInterceptor    : 登录拦截器校验...
+2024-12-05 19:22:45.977  INFO 48020 --- [http-nio-8080-exec-10] c.b.book.interceptor.LoginInterceptor    : 登录拦截器校验...
+2024-12-05 19:22:51.525  INFO 48020 --- [http-nio-8080-exec-3] com.bite.book.aspect.TimeAspect          : login方法执行时间：5ms
+2024-12-05 19:22:51.558  INFO 48020 --- [http-nio-8080-exec-4] c.b.book.interceptor.LoginInterceptor    : 登录拦截器校验...
+2024-12-05 19:22:51.561  INFO 48020 --- [http-nio-8080-exec-4] c.b.book.interceptor.LoginInterceptor    : 登录拦截器校验...
+2024-12-05 19:23:00.496  INFO 48020 --- [http-nio-8080-exec-8] c.b.book.interceptor.LoginInterceptor    : 登录拦截器校验...
+2024-12-05 19:23:00.500  INFO 48020 --- [http-nio-8080-exec-8] c.b.book.interceptor.LoginInterceptor    : 登录拦截器校验...
+2024-12-05 19:23:21.267  INFO 48020 --- [http-nio-8080-exec-10] c.b.book.interceptor.LoginInterceptor    : 登录拦截器校验...
+2024-12-05 19:23:21.270  INFO 48020 --- [http-nio-8080-exec-10] c.b.book.interceptor.LoginInterceptor    : 登录拦截器校验...
+2024-12-05 19:23:58.684  INFO 48020 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-05 19:23:58.694  INFO 48020 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-05 19:24:01.275  INFO 52732 --- [main] com.bite.book.DemoApplication            : Starting DemoApplication using Java 17.0.11 on DESKTOP-5A1B7J0 with PID 52732 (D:\java_code\BooksManagementSystem\BooksManagementSystem\spring-book\target\classes started by Lenovo in D:\java_code\BooksManagementSystem\BooksManagementSystem\spring-book)
+2024-12-05 19:24:01.277  INFO 52732 --- [main] com.bite.book.DemoApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-12-05 19:24:02.302  INFO 52732 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-12-05 19:24:02.311  INFO 52732 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-05 19:24:02.312  INFO 52732 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2024-12-05 19:24:02.402  INFO 52732 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-05 19:24:02.403  INFO 52732 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1082 ms
+2024-12-05 19:24:03.144  INFO 52732 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-12-05 19:24:03.153  INFO 52732 --- [main] com.bite.book.DemoApplication            : Started DemoApplication in 2.279 seconds (JVM running for 3.038)
+2024-12-05 19:24:17.089  INFO 52732 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-05 19:24:17.089  INFO 52732 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-05 19:24:17.092  INFO 52732 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-12-05 19:24:17.216  INFO 52732 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-05 19:24:17.410  INFO 52732 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-05 19:24:17.460  INFO 52732 --- [http-nio-8080-exec-3] com.bite.book.aspect.TimeAspect          : login方法执行时间：271ms
+2024-12-05 19:24:17.587  INFO 52732 --- [http-nio-8080-exec-4] c.b.book.interceptor.LoginInterceptor    : 登录拦截器校验...
+2024-12-05 19:24:23.477  INFO 52732 --- [http-nio-8080-exec-5] com.bite.book.aspect.TimeAspect          : login方法执行时间：5ms
+2024-12-05 19:24:23.536  INFO 52732 --- [http-nio-8080-exec-6] c.b.book.interceptor.LoginInterceptor    : 登录拦截器校验...
+2024-12-05 19:26:24.352  INFO 52732 --- [http-nio-8080-exec-10] c.b.book.interceptor.LoginInterceptor    : 登录拦截器校验...
+2024-12-05 19:26:41.747  INFO 52732 --- [http-nio-8080-exec-3] com.bite.book.aspect.TimeAspect          : login方法执行时间：5ms
+2024-12-05 19:26:41.807  INFO 52732 --- [http-nio-8080-exec-4] c.b.book.interceptor.LoginInterceptor    : 登录拦截器校验...
+2024-12-05 19:26:41.811  INFO 52732 --- [http-nio-8080-exec-4] c.b.book.interceptor.LoginInterceptor    : 登录拦截器校验...
+2024-12-05 19:27:16.668  INFO 52732 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-05 19:27:16.674  INFO 52732 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-05 19:27:20.233  INFO 63168 --- [main] com.bite.book.DemoApplication            : Starting DemoApplication using Java 17.0.11 on DESKTOP-5A1B7J0 with PID 63168 (D:\java_code\BooksManagementSystem\BooksManagementSystem\spring-book\target\classes started by Lenovo in D:\java_code\BooksManagementSystem\BooksManagementSystem\spring-book)
+2024-12-05 19:27:20.236  INFO 63168 --- [main] com.bite.book.DemoApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-12-05 19:27:21.152  INFO 63168 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-12-05 19:27:21.159  INFO 63168 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-05 19:27:21.160  INFO 63168 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2024-12-05 19:27:21.243  INFO 63168 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-05 19:27:21.243  INFO 63168 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 964 ms
+2024-12-05 19:27:21.819  INFO 63168 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-12-05 19:27:21.829  INFO 63168 --- [main] com.bite.book.DemoApplication            : Started DemoApplication in 1.971 seconds (JVM running for 2.535)
+2024-12-05 19:27:29.098  INFO 63168 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-05 19:27:29.099  INFO 63168 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-05 19:27:29.099  INFO 63168 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-12-05 19:27:29.174  INFO 63168 --- [http-nio-8080-exec-1] c.b.book.interceptor.LoginInterceptor    : 登录拦截器校验...
+2024-12-05 19:27:31.045  INFO 63168 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-05 19:27:31.192  INFO 63168 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-05 19:27:31.230  INFO 63168 --- [http-nio-8080-exec-3] com.bite.book.aspect.TimeAspect          : login方法执行时间：204ms
+2024-12-05 19:27:31.349  INFO 63168 --- [http-nio-8080-exec-4] c.b.book.interceptor.LoginInterceptor    : 登录拦截器校验...
+2024-12-05 19:27:31.356  INFO 63168 --- [http-nio-8080-exec-4] c.b.book.interceptor.LoginInterceptor    : 登录拦截器校验...
+2024-12-05 19:28:15.491  INFO 63168 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-05 19:28:15.499  INFO 63168 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-05 19:28:21.435  INFO 56568 --- [main] com.bite.book.DemoApplication            : Starting DemoApplication using Java 17.0.11 on DESKTOP-5A1B7J0 with PID 56568 (D:\java_code\BooksManagementSystem\BooksManagementSystem\spring-book\target\classes started by Lenovo in D:\java_code\BooksManagementSystem\BooksManagementSystem\spring-book)
+2024-12-05 19:28:21.437  INFO 56568 --- [main] com.bite.book.DemoApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-12-05 19:28:22.433  INFO 56568 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-12-05 19:28:22.440  INFO 56568 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-05 19:28:22.441  INFO 56568 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2024-12-05 19:28:22.566  INFO 56568 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-05 19:28:22.566  INFO 56568 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1087 ms
+2024-12-05 19:28:23.302  INFO 56568 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-12-05 19:28:23.316  INFO 56568 --- [main] com.bite.book.DemoApplication            : Started DemoApplication in 2.254 seconds (JVM running for 2.954)
+2024-12-05 19:28:49.172  INFO 56568 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-05 19:28:49.172  INFO 56568 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-05 19:28:49.173  INFO 56568 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-05 19:28:49.243  INFO 56568 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-05 19:28:49.384  INFO 56568 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-05 19:28:49.426  INFO 56568 --- [http-nio-8080-exec-3] com.bite.book.aspect.TimeAspect          : login方法执行时间：198ms
+2024-12-05 19:28:49.602  INFO 56568 --- [http-nio-8080-exec-8] c.b.book.interceptor.LoginInterceptor    : 登录拦截器校验...
+2024-12-05 19:30:19.889  INFO 56568 --- [http-nio-8080-exec-4] com.bite.book.aspect.TimeAspect          : login方法执行时间：5ms
+2024-12-05 19:30:28.942  INFO 56568 --- [http-nio-8080-exec-9] c.b.book.interceptor.LoginInterceptor    : 登录拦截器校验...
+2024-12-05 19:30:28.957  INFO 56568 --- [http-nio-8080-exec-9] com.bite.book.controller.BookController  : 查询翻页信息, pageRequest:PageRequest(currentPage=1, pageSize=10, offset=0)
+2024-12-05 19:30:28.976  INFO 56568 --- [http-nio-8080-exec-9] com.bite.book.aspect.TimeAspect          : getBookListByPage方法执行时间：25ms
+2024-12-05 19:30:39.619  INFO 56568 --- [http-nio-8080-exec-1] c.b.book.interceptor.LoginInterceptor    : 登录拦截器校验...
+2024-12-05 19:44:42.593  INFO 56568 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-05 19:44:42.601  INFO 56568 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-05 19:44:47.106  INFO 7992 --- [main] com.bite.book.DemoApplication            : Starting DemoApplication using Java 17.0.11 on DESKTOP-5A1B7J0 with PID 7992 (D:\java_code\BooksManagementSystem\BooksManagementSystem\spring-book\target\classes started by Lenovo in D:\java_code\BooksManagementSystem\BooksManagementSystem\spring-book)
+2024-12-05 19:44:47.109  INFO 7992 --- [main] com.bite.book.DemoApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-12-05 19:44:48.143  INFO 7992 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-12-05 19:44:48.151  INFO 7992 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-05 19:44:48.151  INFO 7992 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2024-12-05 19:44:48.238  INFO 7992 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-05 19:44:48.238  INFO 7992 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1069 ms
+2024-12-05 19:44:49.070  INFO 7992 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-12-05 19:44:49.080  INFO 7992 --- [main] com.bite.book.DemoApplication            : Started DemoApplication in 2.288 seconds (JVM running for 2.817)
+2024-12-05 19:44:57.763  INFO 7992 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-05 19:44:57.763  INFO 7992 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-05 19:44:57.764  INFO 7992 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-12-05 19:44:57.792  INFO 7992 --- [http-nio-8080-exec-2] com.bite.book.aspect.TimeAspect          : 方法执行前
+2024-12-05 19:44:57.793  INFO 7992 --- [http-nio-8080-exec-2] com.bite.book.aspect.TimeAspect          : 方法执行前
+2024-12-05 19:44:57.799  INFO 7992 --- [http-nio-8080-exec-2] com.bite.book.aspect.TimeAspect          : 方法执行后，返回结果
+2024-12-05 19:44:57.799  INFO 7992 --- [http-nio-8080-exec-2] com.bite.book.aspect.TimeAspect          : 方法执行后
+2024-12-05 19:44:57.800  INFO 7992 --- [http-nio-8080-exec-2] com.bite.book.aspect.TimeAspect          : 方法执行后，返回结果
+2024-12-05 19:45:44.724  INFO 60356 --- [main] com.bite.book.DemoApplication            : Starting DemoApplication using Java 17.0.11 on DESKTOP-5A1B7J0 with PID 60356 (D:\java_code\BooksManagementSystem\BooksManagementSystem\spring-book\target\classes started by Lenovo in D:\java_code\BooksManagementSystem\BooksManagementSystem\spring-book)
+2024-12-05 19:45:44.727  INFO 60356 --- [main] com.bite.book.DemoApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-12-05 19:45:45.614  INFO 60356 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-12-05 19:45:45.619  INFO 60356 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-05 19:45:45.619  INFO 60356 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2024-12-05 19:45:45.712  INFO 60356 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-05 19:45:45.712  INFO 60356 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 942 ms
+2024-12-05 19:45:46.515  INFO 60356 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-12-05 19:45:46.525  INFO 60356 --- [main] com.bite.book.DemoApplication            : Started DemoApplication in 2.133 seconds (JVM running for 2.669)
+2024-12-05 19:45:49.512  INFO 60356 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-05 19:45:49.512  INFO 60356 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-05 19:45:49.513  INFO 60356 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-05 19:45:49.530  INFO 60356 --- [http-nio-8080-exec-1] com.bite.book.aspect.TimeAspect          : 方法执行前 --- Around
+2024-12-05 19:45:49.530  INFO 60356 --- [http-nio-8080-exec-1] com.bite.book.aspect.TimeAspect          : 方法执行前 --- bofore 
+2024-12-05 19:45:49.533  INFO 60356 --- [http-nio-8080-exec-1] com.bite.book.aspect.TimeAspect          : 方法执行后，返回结果 --- AfterReturning
+2024-12-05 19:45:49.533  INFO 60356 --- [http-nio-8080-exec-1] com.bite.book.aspect.TimeAspect          : 方法执行后 --- After
+2024-12-05 19:45:49.534  INFO 60356 --- [http-nio-8080-exec-1] com.bite.book.aspect.TimeAspect          : 方法执行后，返回结果 --- Around
+2024-12-05 19:47:16.236  INFO 60356 --- [http-nio-8080-exec-5] com.bite.book.aspect.TimeAspect          : 方法执行前 --- Around
+2024-12-05 19:47:16.236  INFO 60356 --- [http-nio-8080-exec-5] com.bite.book.aspect.TimeAspect          : 方法执行前 --- bofore 
+2024-12-05 19:47:16.236  INFO 60356 --- [http-nio-8080-exec-5] com.bite.book.aspect.TimeAspect          : 方法执行后，抛出异常 --- AfterThrowing
+2024-12-05 19:47:16.237  INFO 60356 --- [http-nio-8080-exec-5] com.bite.book.aspect.TimeAspect          : 方法执行后 --- After
+2024-12-05 19:47:21.851  INFO 60356 --- [http-nio-8080-exec-6] com.bite.book.aspect.TimeAspect          : 方法执行前 --- Around
+2024-12-05 19:47:21.851  INFO 60356 --- [http-nio-8080-exec-6] com.bite.book.aspect.TimeAspect          : 方法执行前 --- bofore 
+2024-12-05 19:47:21.851  INFO 60356 --- [http-nio-8080-exec-6] com.bite.book.aspect.TimeAspect          : 方法执行后，抛出异常 --- AfterThrowing
+2024-12-05 19:47:21.851  INFO 60356 --- [http-nio-8080-exec-6] com.bite.book.aspect.TimeAspect          : 方法执行后 --- After
+2024-12-05 19:50:55.727  INFO 60660 --- [main] com.bite.book.DemoApplication            : Starting DemoApplication using Java 17.0.11 on DESKTOP-5A1B7J0 with PID 60660 (D:\java_code\BooksManagementSystem\BooksManagementSystem\spring-book\target\classes started by Lenovo in D:\java_code\BooksManagementSystem\BooksManagementSystem\spring-book)
+2024-12-05 19:50:55.731  INFO 60660 --- [main] com.bite.book.DemoApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-12-05 19:50:56.760  INFO 60660 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-12-05 19:50:56.772  INFO 60660 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-05 19:50:56.772  INFO 60660 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2024-12-05 19:50:56.854  INFO 60660 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-05 19:50:56.854  INFO 60660 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1076 ms
+2024-12-05 19:50:57.641  INFO 60660 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-12-05 19:50:57.649  INFO 60660 --- [main] com.bite.book.DemoApplication            : Started DemoApplication in 2.296 seconds (JVM running for 2.886)
+2024-12-05 19:51:30.409  INFO 60660 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-05 19:51:30.410  INFO 60660 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-05 19:51:30.411  INFO 60660 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-05 19:51:30.440  INFO 60660 --- [http-nio-8080-exec-2] com.bite.book.aspect.TimeAspect          : 方法执行前 --- Around
+2024-12-05 19:51:30.441  INFO 60660 --- [http-nio-8080-exec-2] com.bite.book.aspect.TimeAspect          : 方法执行前 --- bofore 
+2024-12-05 19:51:30.446  INFO 60660 --- [http-nio-8080-exec-2] com.bite.book.aspect.TimeAspect          : 方法执行后，返回结果 --- AfterReturning
+2024-12-05 19:51:30.446  INFO 60660 --- [http-nio-8080-exec-2] com.bite.book.aspect.TimeAspect          : 方法执行后 --- After
+2024-12-05 19:51:30.447  INFO 60660 --- [http-nio-8080-exec-2] com.bite.book.aspect.TimeAspect          : 方法执行后，返回结果 --- Around
+2024-12-05 19:56:01.428  INFO 52420 --- [main] com.bite.book.DemoApplication            : Starting DemoApplication using Java 17.0.11 on DESKTOP-5A1B7J0 with PID 52420 (D:\java_code\BooksManagementSystem\BooksManagementSystem\spring-book\target\classes started by Lenovo in D:\java_code\BooksManagementSystem\BooksManagementSystem\spring-book)
+2024-12-05 19:56:01.432  INFO 52420 --- [main] com.bite.book.DemoApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-12-05 19:56:02.559  INFO 52420 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-12-05 19:56:02.577  INFO 52420 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-05 19:56:02.579  INFO 52420 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2024-12-05 19:56:02.688  INFO 52420 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-05 19:56:02.689  INFO 52420 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1201 ms
+2024-12-05 19:56:03.199  INFO 52420 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-12-05 19:56:03.209  INFO 52420 --- [main] com.bite.book.DemoApplication            : Started DemoApplication in 2.163 seconds (JVM running for 2.672)
+2024-12-05 19:56:14.851  INFO 52420 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-05 19:56:14.851  INFO 52420 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-05 19:56:14.851  INFO 52420 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-12-05 19:57:12.267  INFO 62800 --- [main] com.bite.book.DemoApplication            : Starting DemoApplication using Java 17.0.11 on DESKTOP-5A1B7J0 with PID 62800 (D:\java_code\BooksManagementSystem\BooksManagementSystem\spring-book\target\classes started by Lenovo in D:\java_code\BooksManagementSystem\BooksManagementSystem\spring-book)
+2024-12-05 19:57:12.269  INFO 62800 --- [main] com.bite.book.DemoApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-12-05 19:57:12.965  INFO 62800 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-12-05 19:57:12.978  INFO 62800 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-05 19:57:12.979  INFO 62800 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2024-12-05 19:57:13.059  INFO 62800 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-05 19:57:13.059  INFO 62800 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 752 ms
+2024-12-05 19:57:13.480  INFO 62800 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-12-05 19:57:13.488  INFO 62800 --- [main] com.bite.book.DemoApplication            : Started DemoApplication in 1.513 seconds (JVM running for 1.998)
+2024-12-05 19:57:22.371  INFO 62800 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-05 19:57:22.371  INFO 62800 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-05 19:57:22.372  INFO 62800 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-05 19:57:44.632  INFO 63432 --- [main] com.bite.book.DemoApplication            : Starting DemoApplication using Java 17.0.11 on DESKTOP-5A1B7J0 with PID 63432 (D:\java_code\BooksManagementSystem\BooksManagementSystem\spring-book\target\classes started by Lenovo in D:\java_code\BooksManagementSystem\BooksManagementSystem\spring-book)
+2024-12-05 19:57:44.634  INFO 63432 --- [main] com.bite.book.DemoApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-12-05 19:57:45.523  INFO 63432 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-12-05 19:57:45.529  INFO 63432 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-05 19:57:45.529  INFO 63432 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2024-12-05 19:57:45.615  INFO 63432 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-05 19:57:45.615  INFO 63432 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 943 ms
+2024-12-05 19:57:46.337  INFO 63432 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-12-05 19:57:46.345  INFO 63432 --- [main] com.bite.book.DemoApplication            : Started DemoApplication in 2.015 seconds (JVM running for 2.519)
+2024-12-05 19:57:49.481  INFO 63432 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-05 19:57:49.481  INFO 63432 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-05 19:57:49.483  INFO 63432 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-05 19:57:49.501  INFO 63432 --- [http-nio-8080-exec-3] com.bite.book.aspect.TimeAspect          : 方法执行前 --- Around
+2024-12-05 19:57:49.501  INFO 63432 --- [http-nio-8080-exec-3] com.bite.book.aspect.TimeAspect          : 方法执行前 --- bofore 
+2024-12-05 19:57:49.505  INFO 63432 --- [http-nio-8080-exec-3] com.bite.book.aspect.TimeAspect          : 方法执行后，返回结果 --- AfterReturning
+2024-12-05 19:57:49.505  INFO 63432 --- [http-nio-8080-exec-3] com.bite.book.aspect.TimeAspect          : 方法执行后 --- After
+2024-12-05 19:57:49.505  INFO 63432 --- [http-nio-8080-exec-3] com.bite.book.aspect.TimeAspect          : 方法执行后，返回结果 --- Around
+2024-12-05 19:58:09.754  INFO 54180 --- [main] com.bite.book.DemoApplication            : Starting DemoApplication using Java 17.0.11 on DESKTOP-5A1B7J0 with PID 54180 (D:\java_code\BooksManagementSystem\BooksManagementSystem\spring-book\target\classes started by Lenovo in D:\java_code\BooksManagementSystem\BooksManagementSystem\spring-book)
+2024-12-05 19:58:09.756  INFO 54180 --- [main] com.bite.book.DemoApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-12-05 19:58:10.593  INFO 54180 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-12-05 19:58:10.599  INFO 54180 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-05 19:58:10.599  INFO 54180 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2024-12-05 19:58:10.684  INFO 54180 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-05 19:58:10.684  INFO 54180 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 878 ms
+2024-12-05 19:58:11.125  INFO 54180 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-12-05 19:58:11.134  INFO 54180 --- [main] com.bite.book.DemoApplication            : Started DemoApplication in 1.729 seconds (JVM running for 2.252)
+2024-12-05 19:58:29.912  INFO 51248 --- [main] com.bite.book.DemoApplication            : Starting DemoApplication using Java 17.0.11 on DESKTOP-5A1B7J0 with PID 51248 (D:\java_code\BooksManagementSystem\BooksManagementSystem\spring-book\target\classes started by Lenovo in D:\java_code\BooksManagementSystem\BooksManagementSystem\spring-book)
+2024-12-05 19:58:29.916  INFO 51248 --- [main] com.bite.book.DemoApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-12-05 19:58:30.961  INFO 51248 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-12-05 19:58:30.971  INFO 51248 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-05 19:58:30.972  INFO 51248 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2024-12-05 19:58:31.088  INFO 51248 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-05 19:58:31.088  INFO 51248 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1122 ms
+2024-12-05 19:58:32.061  INFO 51248 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-12-05 19:58:32.073  INFO 51248 --- [main] com.bite.book.DemoApplication            : Started DemoApplication in 2.514 seconds (JVM running for 3.049)
+2024-12-05 19:58:35.465  INFO 51248 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-05 19:58:35.465  INFO 51248 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-05 19:58:35.466  INFO 51248 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-05 19:58:35.485  INFO 51248 --- [http-nio-8080-exec-1] com.bite.book.aspect.AspectDemo2         : 执行 AspectDemo2 -> Before 方法
+2024-12-05 19:58:35.485  INFO 51248 --- [http-nio-8080-exec-1] com.bite.book.aspect.AspectDemo3         : 执行 AspectDemo3 -> Before 方法
+2024-12-05 19:58:35.485  INFO 51248 --- [http-nio-8080-exec-1] com.bite.book.aspect.AspectDemo4         : 执行 AspectDemo4 -> Before 方法
+2024-12-05 19:58:35.489  INFO 51248 --- [http-nio-8080-exec-1] com.bite.book.aspect.AspectDemo4         : 执行 AspectDemo4 -> After 方法
+2024-12-05 19:58:35.489  INFO 51248 --- [http-nio-8080-exec-1] com.bite.book.aspect.AspectDemo3         : 执行 AspectDemo3 -> After 方法
+2024-12-05 19:58:35.489  INFO 51248 --- [http-nio-8080-exec-1] com.bite.book.aspect.AspectDemo2         : 执行 AspectDemo2 -> After 方法
+2024-12-05 19:59:51.238  INFO 9448 --- [main] com.bite.book.DemoApplication            : Starting DemoApplication using Java 17.0.11 on DESKTOP-5A1B7J0 with PID 9448 (D:\java_code\BooksManagementSystem\BooksManagementSystem\spring-book\target\classes started by Lenovo in D:\java_code\BooksManagementSystem\BooksManagementSystem\spring-book)
+2024-12-05 19:59:51.240  INFO 9448 --- [main] com.bite.book.DemoApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-12-05 19:59:52.129  INFO 9448 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-12-05 19:59:52.136  INFO 9448 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-05 19:59:52.136  INFO 9448 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2024-12-05 19:59:52.221  INFO 9448 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-05 19:59:52.222  INFO 9448 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 939 ms
+2024-12-05 19:59:52.999  INFO 9448 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-12-05 19:59:53.008  INFO 9448 --- [main] com.bite.book.DemoApplication            : Started DemoApplication in 2.097 seconds (JVM running for 2.615)
+2024-12-05 19:59:58.217  INFO 9448 --- [http-nio-8080-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-05 19:59:58.217  INFO 9448 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-05 19:59:58.217  INFO 9448 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-12-05 19:59:58.236  INFO 9448 --- [http-nio-8080-exec-4] com.bite.book.aspect.AspectDemo2         : 执行 AspectDemo2 -> Before 方法
+2024-12-05 19:59:58.238  INFO 9448 --- [http-nio-8080-exec-4] com.bite.book.aspect.AspectDemo3         : 执行 AspectDemo3 -> Before 方法
+2024-12-05 19:59:58.238  INFO 9448 --- [http-nio-8080-exec-4] com.bite.book.aspect.AspectDemo4         : 执行 AspectDemo4 -> Before 方法
+2024-12-05 19:59:58.242  INFO 9448 --- [http-nio-8080-exec-4] com.bite.book.aspect.AspectDemo4         : 执行 AspectDemo4 -> After 方法
+2024-12-05 19:59:58.242  INFO 9448 --- [http-nio-8080-exec-4] com.bite.book.aspect.AspectDemo3         : 执行 AspectDemo3 -> After 方法
+2024-12-05 19:59:58.243  INFO 9448 --- [http-nio-8080-exec-4] com.bite.book.aspect.AspectDemo2         : 执行 AspectDemo2 -> After 方法
+2024-12-05 20:01:00.999  INFO 55760 --- [main] com.bite.book.DemoApplication            : Starting DemoApplication using Java 17.0.11 on DESKTOP-5A1B7J0 with PID 55760 (D:\java_code\BooksManagementSystem\BooksManagementSystem\spring-book\target\classes started by Lenovo in D:\java_code\BooksManagementSystem\BooksManagementSystem\spring-book)
+2024-12-05 20:01:01.001  INFO 55760 --- [main] com.bite.book.DemoApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-12-05 20:01:01.933  INFO 55760 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-12-05 20:01:01.939  INFO 55760 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-05 20:01:01.939  INFO 55760 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2024-12-05 20:01:02.032  INFO 55760 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-05 20:01:02.032  INFO 55760 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 987 ms
+2024-12-05 20:01:02.825  INFO 55760 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-12-05 20:01:02.832  INFO 55760 --- [main] com.bite.book.DemoApplication            : Started DemoApplication in 2.18 seconds (JVM running for 2.691)
+2024-12-05 20:01:10.742  INFO 55760 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-05 20:01:10.743  INFO 55760 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-05 20:01:10.744  INFO 55760 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-12-05 20:01:10.766  INFO 55760 --- [http-nio-8080-exec-1] com.bite.book.aspect.AspectDemo4         : 执行 AspectDemo4 -> Before 方法
+2024-12-05 20:01:10.766  INFO 55760 --- [http-nio-8080-exec-1] com.bite.book.aspect.AspectDemo3         : 执行 AspectDemo3 -> Before 方法
+2024-12-05 20:01:10.766  INFO 55760 --- [http-nio-8080-exec-1] com.bite.book.aspect.AspectDemo2         : 执行 AspectDemo2 -> Before 方法
+2024-12-05 20:01:10.772  INFO 55760 --- [http-nio-8080-exec-1] com.bite.book.aspect.AspectDemo2         : 执行 AspectDemo2 -> After 方法
+2024-12-05 20:01:10.772  INFO 55760 --- [http-nio-8080-exec-1] com.bite.book.aspect.AspectDemo3         : 执行 AspectDemo3 -> After 方法
+2024-12-05 20:01:10.772  INFO 55760 --- [http-nio-8080-exec-1] com.bite.book.aspect.AspectDemo4         : 执行 AspectDemo4 -> After 方法
+2024-12-05 20:15:00.871  INFO 19524 --- [main] com.bite.book.DemoApplication            : Starting DemoApplication using Java 17.0.11 on DESKTOP-5A1B7J0 with PID 19524 (D:\java_code\BooksManagementSystem\BooksManagementSystem\spring-book\target\classes started by Lenovo in D:\java_code\BooksManagementSystem\BooksManagementSystem\spring-book)
+2024-12-05 20:15:00.874  INFO 19524 --- [main] com.bite.book.DemoApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-12-05 20:15:01.890  INFO 19524 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-12-05 20:15:01.897  INFO 19524 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-05 20:15:01.897  INFO 19524 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2024-12-05 20:15:01.978  INFO 19524 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-05 20:15:01.978  INFO 19524 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1064 ms
+2024-12-05 20:15:02.757  INFO 19524 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-12-05 20:15:02.764  INFO 19524 --- [main] com.bite.book.DemoApplication            : Started DemoApplication in 2.215 seconds (JVM running for 2.686)
+2024-12-05 20:15:53.049  INFO 27124 --- [main] com.bite.book.DemoApplication            : Starting DemoApplication using Java 17.0.11 on DESKTOP-5A1B7J0 with PID 27124 (D:\java_code\BooksManagementSystem\BooksManagementSystem\spring-book\target\classes started by Lenovo in D:\java_code\BooksManagementSystem\BooksManagementSystem\spring-book)
+2024-12-05 20:15:53.052  INFO 27124 --- [main] com.bite.book.DemoApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-12-05 20:15:54.058  INFO 27124 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-12-05 20:15:54.065  INFO 27124 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-05 20:15:54.065  INFO 27124 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2024-12-05 20:15:54.149  INFO 27124 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-05 20:15:54.150  INFO 27124 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1054 ms
+2024-12-05 20:15:54.988  INFO 27124 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-12-05 20:15:54.999  INFO 27124 --- [main] com.bite.book.DemoApplication            : Started DemoApplication in 2.322 seconds (JVM running for 2.878)
+2024-12-05 20:16:14.634  INFO 27124 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-05 20:16:14.634  INFO 27124 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-05 20:16:14.635  INFO 27124 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-05 20:16:14.646  INFO 27124 --- [http-nio-8080-exec-1] c.b.book.interceptor.LoginInterceptor    : 登录拦截器校验...
+2024-12-05 20:16:26.762  INFO 27124 --- [http-nio-8080-exec-3] com.bite.book.aspect.AspectDemo4         : 执行 AspectDemo4 -> Before 方法
+2024-12-05 20:16:26.764  INFO 27124 --- [http-nio-8080-exec-3] com.bite.book.aspect.AspectDemo3         : 执行 AspectDemo3 -> Before 方法
+2024-12-05 20:16:26.764  INFO 27124 --- [http-nio-8080-exec-3] com.bite.book.aspect.AspectDemo2         : 执行 AspectDemo2 -> Before 方法
+2024-12-05 20:16:26.780  INFO 27124 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-05 20:16:26.931  INFO 27124 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-05 20:16:26.961  INFO 27124 --- [http-nio-8080-exec-3] com.bite.book.aspect.AspectDemo2         : 执行 AspectDemo2 -> After 方法
+2024-12-05 20:16:26.961  INFO 27124 --- [http-nio-8080-exec-3] com.bite.book.aspect.AspectDemo3         : 执行 AspectDemo3 -> After 方法
+2024-12-05 20:16:26.961  INFO 27124 --- [http-nio-8080-exec-3] com.bite.book.aspect.AspectDemo4         : 执行 AspectDemo4 -> After 方法
+2024-12-05 20:16:28.393  INFO 27124 --- [http-nio-8080-exec-4] c.b.book.interceptor.LoginInterceptor    : 登录拦截器校验...
+2024-12-05 20:16:28.394  INFO 27124 --- [http-nio-8080-exec-4] com.bite.book.aspect.AspectDemo4         : 执行 AspectDemo4 -> Before 方法
+2024-12-05 20:16:28.394  INFO 27124 --- [http-nio-8080-exec-4] com.bite.book.aspect.AspectDemo3         : 执行 AspectDemo3 -> Before 方法
+2024-12-05 20:16:28.394  INFO 27124 --- [http-nio-8080-exec-4] com.bite.book.aspect.AspectDemo2         : 执行 AspectDemo2 -> Before 方法
+2024-12-05 20:16:28.407  INFO 27124 --- [http-nio-8080-exec-4] com.bite.book.aspect.MyAspectDemo        : MyAspect -> before
+2024-12-05 20:16:28.408  INFO 27124 --- [http-nio-8080-exec-4] com.bite.book.aspect.MyAspectDemo        : MyAspect -> after
+2024-12-05 20:16:28.408  INFO 27124 --- [http-nio-8080-exec-4] com.bite.book.aspect.AspectDemo2         : 执行 AspectDemo2 -> After 方法
+2024-12-05 20:16:28.408  INFO 27124 --- [http-nio-8080-exec-4] com.bite.book.aspect.AspectDemo3         : 执行 AspectDemo3 -> After 方法
+2024-12-05 20:16:28.409  INFO 27124 --- [http-nio-8080-exec-4] com.bite.book.aspect.AspectDemo4         : 执行 AspectDemo4 -> After 方法
+2024-12-05 20:16:48.013  INFO 27124 --- [http-nio-8080-exec-5] c.b.book.interceptor.LoginInterceptor    : 登录拦截器校验...
+2024-12-05 20:16:48.013  INFO 27124 --- [http-nio-8080-exec-5] com.bite.book.aspect.AspectDemo4         : 执行 AspectDemo4 -> Before 方法
+2024-12-05 20:16:48.013  INFO 27124 --- [http-nio-8080-exec-5] com.bite.book.aspect.AspectDemo3         : 执行 AspectDemo3 -> Before 方法
+2024-12-05 20:16:48.013  INFO 27124 --- [http-nio-8080-exec-5] com.bite.book.aspect.AspectDemo2         : 执行 AspectDemo2 -> Before 方法
+2024-12-05 20:16:48.013  INFO 27124 --- [http-nio-8080-exec-5] com.bite.book.aspect.AspectDemo2         : 执行 AspectDemo2 -> After 方法
+2024-12-05 20:16:48.013  INFO 27124 --- [http-nio-8080-exec-5] com.bite.book.aspect.AspectDemo3         : 执行 AspectDemo3 -> After 方法
+2024-12-05 20:16:48.013  INFO 27124 --- [http-nio-8080-exec-5] com.bite.book.aspect.AspectDemo4         : 执行 AspectDemo4 -> After 方法
+2024-12-05 20:20:25.755  INFO 27124 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-05 20:20:25.762  INFO 27124 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
