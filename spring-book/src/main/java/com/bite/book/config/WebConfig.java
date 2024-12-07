@@ -14,12 +14,8 @@ public class WebConfig implements WebMvcConfigurer {
     @Autowired
     private LoginInterceptor loginInterceptor;
 
-<<<<<<< HEAD
-    private static List<String> excludePath = Arrays.asList(
-            "/user/login",
-=======
+
     private static List<String> excludePath = Arrays.asList("/user/login",
->>>>>>> origin/main
             "/css/**",
             "/js/**",
             "/pic/**",

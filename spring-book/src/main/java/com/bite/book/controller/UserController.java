@@ -1,9 +1,7 @@
 package com.bite.book.controller;
 
-<<<<<<< HEAD
 import com.bite.book.annotation.MyAspect;
-=======
->>>>>>> origin/main
+
 import com.bite.book.constant.Constants;
 import com.bite.book.model.UserInfo;
 import com.bite.book.service.UserService;
@@ -17,7 +15,6 @@ import javax.servlet.http.HttpSession;
 @RequestMapping("/user")
 @RestController
 public class UserController {
-<<<<<<< HEAD
 
     @MyAspect
     @RequestMapping("/u1")
@@ -25,15 +22,11 @@ public class UserController {
         return "u1";
     }
 
-
     @RequestMapping("/u2")
     public String u2(){
         return "u2";
     }
 
-
-=======
->>>>>>> origin/main
     @Autowired
     private UserService userService;
 

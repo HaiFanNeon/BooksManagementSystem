@@ -8,26 +8,20 @@ import org.springframework.http.MediaType;
 import org.springframework.http.server.ServerHttpRequest;
 import org.springframework.http.server.ServerHttpResponse;
 import org.springframework.web.bind.annotation.ControllerAdvice;
-<<<<<<< HEAD
+
 import org.springframework.web.bind.annotation.ResponseBody;
-=======
->>>>>>> origin/main
+
 import org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice;
 
 
 @ControllerAdvice
-<<<<<<< HEAD
 
-public class ResponseAdvice implements ResponseBodyAdvice {
 
-    private static ObjectMapper mapper = new ObjectMapper();
     
-=======
+
 public class ResponseAdvice implements ResponseBodyAdvice {
 
     private static ObjectMapper mapper = new ObjectMapper();
-
->>>>>>> origin/main
     @Override
     public boolean supports(MethodParameter returnType, Class converterType) {
         return true;
